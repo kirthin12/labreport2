@@ -1,5 +1,4 @@
-# Lab Report 2
-## 1. Part 1
+# 1. Part 1
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -54,12 +53,14 @@ class SearchEngine {
     }
 }
 ```
-1) The first method in the handler class calls for for the main page. When accessing the search engine, the user will first see this page. This is the home page and has no path or query.
+## 1) String handleRequest(URI url)
+The first part of this method opens the main page when access. The program checks if the url has a "/" which open the main page. The user would see a web page letting them know that they are on the main page. The else if statement checks if the url has the path "/p", which returns the added elements to the array list. The user will see a webpage with all the words they added. The else statement searches the url for the path "/add" and the query "?s=" which tells the program to add a word to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list.
 ![Image](main.png)
-2) The second method in the handler class looks for the path named "p". When this happens, it would return all the words that were added to the array list. ![Image](added.png)![Image](added2.png)
-3) The third method in the handler class is where the user would add the words to the array list. With the pass "add" and the query "s=", the word after the "=" is what is being added to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list. ![Image](p.png)
+![Image](added.png)
+![Image](added2.png)
+![Image](p.png)
 
-## 2. Part 2
+# 2. Part 2
 In the array methods there were many bugs. The ReverseInPlace method had a bug. When we inputed the array [1,2,3], The modified array would be [3,2,3] instead of [3,2,1]. This was the symptom. The bug was that the for loop was modifying that array only which meant that the first element was no longer 1, but now three. We had to make a new array where we would copy the elements into that array so that the original array would not be modified. 
 
 Also in that array class, the reversed method had a bug. When we inputed the array [1,2,3], it would return [0,0,0], instead of [3,2,1]. The bug in this method was that the for loop was modifying the wrong array. It was reversing the array with values all initialized to zero. We just swapped the arrays and the method works fine now. 
