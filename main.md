@@ -54,18 +54,18 @@ class SearchEngine {
     }
 }
 ```
-The first method in the handler class calls for for the main page. When accessing the search engine, the user will first see this page. This is the home page and has no path or query.
+1) The first method in the handler class calls for for the main page. When accessing the search engine, the user will first see this page. This is the home page and has no path or query.
 
 
 ![Image](main.png)
 
-The second method in the handler class looks for the path named "p". When this happens, it would return all the words that were added to the array list.
+2) The second method in the handler class looks for the path named "p". When this happens, it would return all the words that were added to the array list.
 
 
 ![Image](added.png)
 ![Image](added2.png)
 
-The third method in the handler class is where the user would add the words to the array list. With the pass "add" and the query "s=", the word after the "=" is what is being added to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list. 
+3) The third method in the handler class is where the user would add the words to the array list. With the pass "add" and the query "s=", the word after the "=" is what is being added to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list. 
 
 
 ![Image](p.png)
