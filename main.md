@@ -72,6 +72,12 @@ The else if statement checks if the url has the path "/p", which returns the add
 
 
 # 2. Part 2
-In the array methods there were many bugs. The ReverseInPlace method had a bug. When we inputed the array [1,2,3], The modified array would be [3,2,3] instead of [3,2,1]. This was the symptom. The bug was that the for loop was modifying that array only which meant that the first element was no longer 1, but now three. We had to make a new array where we would copy the elements into that array so that the original array would not be modified. 
+## 1. `reverseInPlace(int[] arr)` 
+* **Failure Inducing Input:** [1,2,3]
+* **Symptom/Output:** [3,2,3]  
+* **Bug:** The bug was that the for loop was modifying that array only which meant that the first element was no longer 1, but now three. We had to make a new array where we would copy the elements into that array so that the original array would not be modified. 
 
-Also in that array class, the reversed method had a bug. When we inputed the array [1,2,3], it would return [0,0,0], instead of [3,2,1]. The bug in this method was that the for loop was modifying the wrong array. It was reversing the array with values all initialized to zero. We just swapped the arrays and the method works fine now. 
+## 2. `reversed` 
+* **Failure Inducing Input:** [1,2,3]
+* **Symptom/Output:** [0,0,0] 
+* **Bug:** The bug in this method was that the for loop was modifying the wrong array. It was reversing the array with values all initialized to zero. We just swapped the arrays and the method works fine now. 
