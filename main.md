@@ -85,3 +85,7 @@ Original             |  New
 * **Failure Inducing Input:** [1,2,3]
 * **Symptom/Output:** [0,0,0] 
 * **Bug:** The bug in this method was that the for loop was modifying the wrong array. It was reversing the array with values all initialized to zero. We just swapped the arrays and the method works fine now. 
+
+Original             |  New
+:-------------------------:|:-------------------------:
+![Image](reversed.png)  |  ![Image](reversed2.png)
