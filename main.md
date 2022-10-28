@@ -79,7 +79,7 @@ The else if statement checks if the url has the path "/p", which returns the add
 
 Original             |  New
 :-------------------------:|:-------------------------:
-![Image](1.png)  |  ![Image](2.png)
+![Image](2.png)  |  ![Image](1.png)
 
 ## 2. `reversed` 
 * **Failure Inducing Input:** [1,2,3]
