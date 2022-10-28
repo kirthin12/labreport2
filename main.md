@@ -1,3 +1,4 @@
+# Week 1 Lab Report
 # 1. Part 1
 ```
 import java.io.IOException;
@@ -53,7 +54,7 @@ class SearchEngine {
     }
 }
 ```
-## 1) String handleRequest(URI url)
+## String handleRequest(URI url)
 The first part of this method opens the main page when access. The program checks if the url has a "/" which open the main page. The user would see a web page letting them know that they are on the main page. 
 
 ![Image](main.png)
