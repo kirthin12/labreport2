@@ -61,14 +61,14 @@ The first part of this method opens the main page when access. The program check
 
 ---
 
-The else if statement checks if the url has the path "/p", which returns the added elements to the array list. 
+The else statement searches the url for the path "/add" and the query "?s=" which tells the program to add a word to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list.
 
 ![Image](added.png)
 ![Image](added2.png)
 
 ---
 
-The user will see a webpage with all the words they added. The else statement searches the url for the path "/add" and the query "?s=" which tells the program to add a word to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list.
+The else if statement checks if the url has the path "/p", which returns the added elements to the array list. The user will see a webpage with all the words they added. 
 
 ![Image](p.png)
 
