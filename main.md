@@ -59,16 +59,20 @@ The first part of this method opens the main page when access. The program check
 
 ![Image](main.png)
 
+---
+
 The else if statement checks if the url has the path "/p", which returns the added elements to the array list. 
 
 ![Image](added.png)
 ![Image](added2.png)
 
+---
+
 The user will see a webpage with all the words they added. The else statement searches the url for the path "/add" and the query "?s=" which tells the program to add a word to the array list. Whenever the user were to use this, they would get a message letting them know that their word has been added to the array list.
 
 ![Image](p.png)
 
-
+---
 
 # 2. Part 2
 In the array methods there were many bugs. The ReverseInPlace method had a bug. When we inputed the array [1,2,3], The modified array would be [3,2,3] instead of [3,2,1]. This was the symptom. The bug was that the for loop was modifying that array only which meant that the first element was no longer 1, but now three. We had to make a new array where we would copy the elements into that array so that the original array would not be modified. 
