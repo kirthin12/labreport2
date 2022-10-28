@@ -77,6 +77,10 @@ The else if statement checks if the url has the path "/p", which returns the add
 * **Symptom/Output:** [3,2,3]  
 * **Bug:** The bug was that the for loop was modifying that array only which meant that the first element was no longer 1, but now three. We had to make a new array where we would copy the elements into that array so that the original array would not be modified. 
 
+Original             |  New
+:-------------------------:|:-------------------------:
+![Image](1.png)  |  ![Image](2.png)
+
 ## 2. `reversed` 
 * **Failure Inducing Input:** [1,2,3]
 * **Symptom/Output:** [0,0,0] 
